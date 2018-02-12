@@ -4,7 +4,7 @@ class Deck
   attr_accessor :cards
 
   # initialize should create a deck
-  # with {1-A}{Diamonds, Hearts, Clubs, Spades}
+  # with {2-A}{Diamonds, Hearts, Clubs, Spades}
 
   def initialize
     @cards = []
