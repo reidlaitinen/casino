@@ -27,7 +27,7 @@ class Deck
   end
 
   # Take a card out of the deck
-  def pull_card(index)
+  def deal_card(index)
     card = @cards[index]
     @cards.delete_at(index)
     return card
