@@ -29,8 +29,8 @@ puts
 def deal
   i = 0
   while i < 5
-    @my_hand.change_card(i, @deck.pull_card(0))
-    @opp_hand.change_card(i, @deck.pull_card(0))
+    @my_hand.change_card(i, @deck.deal_card(0))
+    @opp_hand.change_card(i, @deck.deal_card(0))
     i += 1
   end
 end
