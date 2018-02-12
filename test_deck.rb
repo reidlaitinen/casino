@@ -8,7 +8,6 @@ require_relative 'poker_hand'
 
 
 def show_deck
-  puts "\tHere's the deck:"
   @deck.show.each_with_index do |card, i|
     puts "\t\t#{i}) #{card.string_value}, #{card.string_suit}"
   end
